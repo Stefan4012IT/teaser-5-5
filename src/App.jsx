@@ -37,11 +37,11 @@ function App() {
           <p className="hero__eyebrow">5.5. / Savremena</p>
 
           <h1 className="hero__title">
-            Nešto novo stiže.
+            5.5. je vas dan odluke za čistu peticu!
           </h1>
 
           <p className="hero__text">
-            Prijavite se i saznajte prvi detalje kampanje Savremene osnovne škole i Savremene gimnazije.
+            Ukoliko želite svom detetu da obezbedite najsvaremenenije obrazovanje ovo je pravi trenutak, imamo za vas iznenadjenje za 5+. Popunite polja, a mi ćemo vas 5.5. obavestiti o čemu je reč.
           </p>
 
           <LeadForm />
