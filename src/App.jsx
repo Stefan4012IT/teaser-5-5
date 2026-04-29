@@ -3,6 +3,9 @@ import Header from './components/Header'
 import CircularMenu from './components/CircularMenu'
 import LeadForm from './components/LeadForm'
 
+import imgDesk from './assets/images/5-5-savremena_osnovna_hero-desk.jpg'
+// import imgMobile from './assets/images/5-5-savremena_osnovna_hero-mobile.jpg'
+
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
@@ -22,10 +25,10 @@ function App() {
         <picture className="teaser-bg">
           <source
             media="(max-width: 768px)"
-            srcSet="/images/teaser-bg-mobile.webp"
+            srcSet="/images/5-5-savremena_osnovna_hero-desk.jpg"
           />
           <img
-            src="/images/teaser-bg-desktop.webp"  
+            src={imgDesk}  
             alt=""
             aria-hidden="true"
           />
