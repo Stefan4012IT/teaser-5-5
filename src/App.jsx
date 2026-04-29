@@ -19,6 +19,17 @@ function App() {
       <Header isMenuOpen={isMenuOpen} onMenuToggle={toggleMenu} />
 
       <section className="hero">
+        <picture className="teaser-bg">
+          <source
+            media="(max-width: 768px)"
+            srcSet="/images/teaser-bg-mobile.webp"
+          />
+          <img
+            src="/images/teaser-bg-desktop.webp"  
+            alt=""
+            aria-hidden="true"
+          />
+        </picture>
         <div className="hero__content">
           <p className="hero__eyebrow">5.5. / Savremena</p>
 

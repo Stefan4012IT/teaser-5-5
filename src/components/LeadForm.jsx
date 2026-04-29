@@ -11,7 +11,7 @@ function LeadForm() {
 
       <div className="lead-form__grid">
         <label className="lead-form__field">
-          <span>Ime</span>
+          <span>Ime *</span>
           <input
             type="text"
             name="CustomFields[5]"
@@ -31,7 +31,7 @@ function LeadForm() {
         </label>
 
         <label className="lead-form__field lead-form__field--full">
-          <span>Broj telefona</span>
+          <span>Broj telefona *</span>
           <input
             type="text"
             name="CustomFields[11]"
